@@ -1,0 +1,91 @@
+@import url("../global.css");
+@import url("../footer.css");
+@import url("../header.css");
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+  align-items: center;
+  padding: 109px 0px 0px 0px;
+}
+
+.hero-title-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 44px;
+}
+
+.hero-subtitle {
+  width: 600px;
+}
+
+.features-container {
+  padding: 141px 0px 86px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-title-wrapper {
+  flex: 1;
+}
+
+.features-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 7.5px 0px 0px 0px;
+}
+
+.coders-container {
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+  align-items: center;
+  padding: 138px 0px;
+  background: var(--news-section-bgcolor);
+}
+
+.coders-content {
+  flex: 1;
+  max-width: 495px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 38.5px;
+}
+
+.team-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+  padding-bottom: 68px;
+  padding-top: 107px;
+}
+
+.team-subtitle {
+  max-width: 600px;
+}
+
+.team-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 179px;
+}
+
+.team-card-title {
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+}
+.team-card-description {
+  font-size: 17px;
+  line-height: 29px;
+}

@@ -1,0 +1,18 @@
+.header-container {
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0px;
+  gap: 58px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header-action {
+  display: flex;
+  gap: 30px;
+}
