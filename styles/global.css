@@ -1,4 +1,6 @@
 @import url("../styles/reset.css");
+@import url("../styles/variables.css");
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf");
@@ -11,13 +13,14 @@
 
 .container {
   width: 100%;
-  max-width: 1200px; /* Saytın maksimum sıxılma eni */
+  max-width: 1200px; 
   margin: 0 auto;
 }
 
 body {
   font-family: "Roboto";
   font-weight: 700;
+  color: var(--primary-color);
 }
 
 .website-name {
@@ -41,15 +44,22 @@ p {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: -0.1px;
-  color: #161c2d;
+  color:var( --primary-color);
 }
 
 .nav-item:nth-child(2) .nav-link {
-  color: #fb6d45;
+  color: var(--home-link-color);
 }
 
 .sections-title {
   font-size: 48px;
   line-height: 58px;
   letter-spacing: -1.8px;
+}
+
+
+.hero-title {
+  font-size: 60px;
+  line-height: 65px;
+  letter-spacing: -2px;
 }
