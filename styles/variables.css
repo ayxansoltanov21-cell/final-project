@@ -1,0 +1,14 @@
+:root{
+    /* Əsas Text rəngləri */
+    /* --primary-color:#161C2D; */
+    --secondary-color:#FFFFFF;
+    --home-link-color:#FB6D45;
+    /* Card başlıqları */
+    --job-full-time-color:#68D585;
+    --job-remote-color:#473BF0;
+    --job-part-time-color:#F64B4B;
+    /* Background rəngləri */
+    --design-category-color:#473BF0;
+    /* Section bgcolor */
+    --news-section-bgcolor:#F4F7FA;
+}
