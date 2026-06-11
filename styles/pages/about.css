@@ -25,18 +25,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 121px;
 }
 
 .features-title-wrapper {
-  flex: 1;
+  /* flex: 1; */
+  max-width: 451px;
 }
 
 .features-content {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding: 7.5px 0px 0px 0px;
+  max-width: 469px;
 }
 
 .coders-container {
@@ -54,8 +57,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 38.5px;
+
+}
+
+.coders-title{
+  max-width: 382px;
 }
 
 .team-content {
