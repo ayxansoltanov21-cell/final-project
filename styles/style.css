@@ -78,3 +78,28 @@ body {
     align-items: center;
     margin-left: auto;
 }
+
+.hero-section {
+  background-color: #f3fbf3;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  width: 45%;
+}
+
+.hero-image {
+  width: 45%;
+}
+
+.woman-image {
+  width: 100%;
+}
