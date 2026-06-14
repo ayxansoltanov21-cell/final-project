@@ -1,0 +1,327 @@
+/* -- uzerinde duzelis olunacaq ... --> */
+
+/* Ümumi reset və base stillər */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Header stilləri */
+.header {
+  background-color: #ffffff;
+  padding: 18px 0px;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+
+/* Login və Register sehifesi - logo ortada */
+.header-content-auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Brainwave.io .... logo */
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  flex-shrink: 0;
+}
+/* HEADER BITDI  */
+
+/* LOG IN SEHIFESI STILLERI */
+
+.main-content {
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+.main-content .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* LOGIN ...QUTUSU*/
+.login-header {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* LOGIN BAŞLIQ */
+.login-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  color: #161c2d;
+
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* ALT YAZI */
+.login-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* AG- KART FORMU */
+.login-card {
+  background-color: #ffffff;
+  border: 1px solid #e7e9ed;
+  margin-bottom: 0;
+  border-radius: 10px;
+  border: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  max-width: 350px;
+  padding: 25px 25px 31px;
+  /* min-height: 373px; */
+  /* width: 100%; */
+}
+
+/* FORM STILLERI... */
+/* UMUMI STIL */
+.login-form {
+  margin-bottom: 0;
+}
+.form-group {
+  margin-bottom: 24px;
+}
+
+/* EMAIL-PASSWORD */
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #5200e9;
+  box-shadow: 0 0 0 3px rgba(82, 0, 233, 0.1);
+}
+
+.form-input::placeholder {
+  color: #999;
+}
+/* EMAIL-PASSWORD */
+
+/* LOGIN BUTTON */
+.signin-button {
+  width: 100%;
+  margin-bottom: 0;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #5200e9 0%, #6b1fff 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  margin-top: 8px;
+}
+
+.signin-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(82, 0, 233, 0.3);
+}
+
+.signin-button:active {
+  transform: translateY(0);
+}
+
+/* Hesab yaratma linki */
+/*      I YAZI */
+.account-link {
+  margin-top: 25px;
+  margin-bottom: 69px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #666;
+}
+/*     II YAZI---- GOY YAZI */
+.create-account-link {
+  color: #5200e9;
+  line-height: 29px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.2s ease;
+}
+
+.create-account-link:hover {
+  color: #6b1fff;
+  text-decoration: underline;
+}
+
+/* Form validasiya xətaları */
+/* DOLDURULMAMIŞ SAHƏ ÜÇÜN */
+.form-input.error {
+  border-color: #e74c3c;
+}
+
+.error-message {
+  display: block;
+  color: #e74c3c;
+  font-size: 12px;
+  margin-top: 4px;
+}
+/* form bitdi */
+
+/* Footer stilləri */
+.footer-space {
+  height: 69px;
+  background-color: #ffffff;
+}
+.footer {
+  background-color: #191b2c;
+  color: #ffffff;
+  padding: 60px 0 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer-brand {
+  max-width: 300px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+ /* sol kunc sozler  */
+.footer-description {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* Sosial media ikonları */
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+}
+
+/* Twitter ikonu üçün hover effekti - yaşıl rəng */
+.social-icon-twitter:hover img {
+  filter: brightness(0) saturate(100%) invert(76%) sepia(30%) saturate(1352%)
+    hue-rotate(88deg) brightness(95%) contrast(87%);
+}
+
+.social-icon img {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+/* Footer sütunları */
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+.footer-heading {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #afb0b6;
+  letter-spacing: 0;
+}
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+/* Responsive dizayn */
+/* duzelis !!!!!! */
+@media (max-width: 1024px) {
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  
+  }
+
+
+.container {
+   max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+}
