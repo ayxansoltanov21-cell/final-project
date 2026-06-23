@@ -1,6 +1,7 @@
 :root {
   /* Əsas Text rəngləri */
   --primary-color: #161c2d;
+  --subtitle-color:rgba(22, 28, 45, 1);
   --secondary-color: #ffffff;
   --home-link-color: #fb6d45;
   /* Card başlıqları */

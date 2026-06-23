@@ -11,12 +11,13 @@
   src: url("../fonts/Rubik/Rubik-VariableFont_wght.ttf");
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px; 
-  margin: 0 auto;
-}
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
 body {
   font-family: "Roboto";
   font-weight: 700;
@@ -36,19 +37,25 @@ p {
   font-size: 19px;
   line-height: 32px;
   letter-spacing: -0.2px;
+  color: var(--subtitle-color);
 }
 
 .nav-link {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 15px;
   line-height: 26px;
   letter-spacing: -0.1px;
   color:var( --primary-color);
+  transition:0.9 all ease ease-in-out;
 }
 
 .nav-item:nth-child(2) .nav-link {
   color: var(--home-link-color);
+}
+
+
+.nav-link:hover{
+  color:var( --accent-purple)
 }
 
 .sections-title {
