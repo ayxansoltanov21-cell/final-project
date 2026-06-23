@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  .login-title {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .login-card {
+    max-width: 420px;
+    padding: 20px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    max-width: 360px;
+    padding: 20px;
+  }
+  .login-title {
+    font-size: 40px;
+  }
+  .login-subtitle {
+    font-size: 15px;
+  }
+}
+  .account-link {
+    margin-bottom: 40px;
+  }
+/* ag kart ucun */
+  @media (max-width: 768px) {
+  .login-card {
+    padding: 36px 28px;
+  }
+  .login-title {
+    font-size: 44px;
+  }
+  .login-subtitle {
+    font-size: 15px;
+  }
+}

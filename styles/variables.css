@@ -1,14 +1,44 @@
-:root{
-    /* Əsas Text rəngləri */
-     --primary-color:#161C2D; 
-    --secondary-color:#FFFFFF;
-    --home-link-color:#FB6D45;
-    /* Card başlıqları */
-    --job-full-time-color:#68D585;
-    --job-remote-color:#473BF0;
-    --job-part-time-color:#F64B4B;
-    /* Background rəngləri */
-    --design-category-color:#473BF0;
-    /* Section bgcolor */
-    --news-section-bgcolor:#F4F7FA;
+:root {
+  /* Əsas Text rəngləri */
+  --primary-color: #161c2d;
+  --secondary-color: #ffffff;
+  --home-link-color: #fb6d45;
+  /* Card başlıqları */
+  --job-full-time-color: #68d585;
+  --job-remote-color: #473bf0;
+  --job-part-time-color: #f64b4b;
+  /* Background rəngləri */
+  --design-category-color: #473bf0;
+  /* Section bgcolor */
+  --news-section-bgcolor: #f4f7fa;
+
+  /* Style.css, signin.css, signup.css  */
+  --text-dark: #333;
+  --text-medium: #666;
+  --text-light: #999;
+  --bg-light: #f5f7fa;
+  --bg-white: #ffffff;
+  --border-light: #e0e0e0;
+  --border-light-2: #e7e9ed;
+  --accent-purple: #5200e9;
+  --accent-purple-dark: #6b1fff;
+  --accent-red: #ff6b6b;
+  --bg-dark: #191b2c;
+  --bg-home-light: #f3fbf3;
+  --bg-light-2: #f2faf2;
+  --bg-light-gray: #f5f5f5;
+  --green-accent: #68d585;
+  --green-accent-light: #92d78a;
+  --green-bg-rgba: rgba(104, 213, 133, 0.2);
+  --error-red: #e74c3c;
+  --accent-blue: #6872ff;
+  --purple-rgba: rgba(82, 0, 233, 0.1);
+  --purple-shadow: rgba(82, 0, 233, 0.3);
+  --dark-shadow: rgba(0, 0, 0, 0.1);
+  --dark-shadow-2: rgba(0, 0, 0, 0.2);
+  --dark-shadow-3: rgba(0, 0, 0, 0.07);
+  --white-rgba-7: rgba(255, 255, 255, 0.7);
+  --white-rgba-9: rgba(255, 255, 255, 0.9);
+  --footer-heading: #afb0b6;
+  --error-message: #e74c3c;
 }

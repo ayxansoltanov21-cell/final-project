@@ -1,0 +1,92 @@
+
+/* Footer stilləri */
+.footer-space {
+  height: 69px;
+  background-color: var(--secondary-color);
+}
+.footer {
+  background-color: var(--bg-dark);
+  color: var(--secondary-color);
+  padding: 60px 0 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer-brand {
+  max-width: 300px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: var(--secondary-color);
+}
+ /* sol kunc sozler  */
+.footer-description {
+  font-size: 14px;
+  color: var(--white-rgba-9);
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* Sosial media ikonları */
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+}
+
+/* Twitter ikonu üçün hover effekti - yaşıl rəng */
+.social-icon-twitter:hover img {
+  filter: brightness(0) saturate(100%) invert(76%) sepia(30%) saturate(1352%)
+    hue-rotate(88deg) brightness(95%) contrast(87%);
+}
+
+.social-icon img {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+/* Footer sütunları */
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+.footer-heading {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--footer-heading);
+  letter-spacing: 0;
+}
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: var(--white-rgba-9);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
