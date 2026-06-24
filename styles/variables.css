@@ -4,6 +4,7 @@
   --subtitle-color:rgba(22, 28, 45, 1);
   --secondary-color: #ffffff;
   --home-link-color: #fb6d45;
+  --navbar-hover:#eec511;
   /* Card başlıqları */
   --job-full-time-color: #68d585;
   --job-remote-color: #473bf0;
@@ -12,6 +13,7 @@
   --design-category-color: #473bf0;
   /* Section bgcolor */
   --news-section-bgcolor: #f4f7fa;
+  --image-wrapper:#f0fbf4;
 
   /* Style.css, signin.css, signup.css  */
   --text-dark: #333;
