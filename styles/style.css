@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 @import url("../variables.css");
 @import url("../reset.css");
 @import url("../global.css");
+=======
+
+
+@import url("../styles/global.css");
+>>>>>>> 37f30ca14bd51dcbcd57e6f951aa3b3a80b47606
 
 @import url("../footer2.css");
 @import url("../styles/responsive/homeResponsive.css");
@@ -24,12 +30,12 @@ body {
   flex-direction: column;
 }
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
-}
+} */
 
 /* Header stilləri */
 .header {
@@ -68,13 +74,13 @@ body {
   justify-content: center;
 }
 
-.nav-link {
-  font-size: 16px;
-  font-weight: 500;
+/* .nav-link {
+  font-size: 15px;
+  font-weight: 700;
   color: var(--text-dark);
   text-decoration: none;
   transition: color 0.2s ease;
-}
+} */
 
 .nav-link:hover {
   color: var(--navbar-hover);
