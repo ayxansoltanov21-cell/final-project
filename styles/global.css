@@ -1,6 +1,7 @@
 @import url("../styles/reset.css");
 @import url("../styles/variables.css");
-
+@import url("../styles/footer2.css");
+@import url("../styles/responsive/homeResponsive.css");
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf");

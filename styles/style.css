@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-@import url("../variables.css");
-@import url("../reset.css");
-@import url("../global.css");
-=======
+
 
 
 @import url("../styles/global.css");
->>>>>>> 37f30ca14bd51dcbcd57e6f951aa3b3a80b47606
 
-@import url("../footer2.css");
-@import url("../styles/responsive/homeResponsive.css");
+
+
+
 
 /* Ümumi reset və base stillər */
 * {
